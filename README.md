@@ -22,7 +22,7 @@ Dane do utworzenia punktów zawarto w pliku tekstowym `dane.txt`. Informacje odn
 └── main.py
 ```
 
-###`main.py`
+### `main.py`
 
 Plik `dane.txt` złożony jest z pięciu wierszy, oddzielonych nową linią. Każdy wiersz posiada dwie wartości numeryczne, oddzielone przecinkiem. Reprezentują one wartości X i Y. Wartości wczytano przy pomocy funkcji `open()`, dzieląc każdy z wierszy na dwie współrzędne w miejscu występowania przecinka. Wartości zostały zapisane w zagnieżdżonych listach
  
@@ -46,7 +46,7 @@ Dla wydruku, ustawiono zasięg identyczny jak dla zasięgu Polski. Usunięto z w
 Przykładowy wydruk wynikowy: 
 ![wydruk](Figure_1.png)
 
-###`funkcje/get.py`
+### `funkcje/get.py`
 
 Skrypt zawiera dwie funkcje, `city_names` oraz `pollution_data`. Odpowiadają one za pozyskanie wartości z API HERE i OpenWeather. Obie funkcje przyjmują argument reprezentujący listę z parą wartości X i Y. Dodatkowo, `pollution_data` przyjmuje dodatkowy argument, służący do wyboru indeksu zanieczyszczeń. 
 
@@ -57,5 +57,5 @@ https://developer.here.com/documentation/geocoding-search-api/dev_guide/topics/e
 
 https://openweathermap.org/api/air-pollution
 
-###`funkcje/annotations.py`
+### `funkcje/annotations.py`
 Skrypt zawiera jedną funkcję, pozwalającą na dodawanie etykiet do punktów. Przyjmuje ona kilka argumentów dotyczących obiektu wydruku, reprezentujących niezbędne obiekty oraz dodatkowe zmienne.
